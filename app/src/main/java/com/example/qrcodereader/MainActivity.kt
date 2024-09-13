@@ -76,6 +76,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
+
     private fun checkPermissionCamera(context: Context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (ContextCompat.checkSelfPermission(context, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
