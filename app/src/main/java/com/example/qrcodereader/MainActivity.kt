@@ -19,6 +19,8 @@ import com.journeyapps.barcodescanner.ScanOptions
 import android.content.pm.PackageManager
 
 
+
+
 class MainActivity : AppCompatActivity() {
     private val requestPermissionLaucher =
         registerForActivityResult(ActivityResultContracts.RequestPermission()){
